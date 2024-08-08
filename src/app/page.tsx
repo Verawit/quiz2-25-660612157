@@ -20,7 +20,7 @@ export default function Home() {
         className="mx-auto p-3 rounded rounded-3 shadow-sm"
       >
         {/* Post Owner Example*/}
-          <PostOwnner userImagePath={"/profileImages/myimg.jpg"} username={"Verawit Yingsirithanayarat 660612157"} commentText={"Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207"} likeNum={999999}/>
+          <PostOwnner userImagePath={"/profileImages/myimg.jpg"} username={"Verawit Yingsirithanayarat 660612157"} commentText={"Quiz ยากจังเลยครับ ของ่าย ๆ กว่านี้ได้ไหม #261207"} likeNum={5489}/>
 
         {/* Comment Example */}
           {comments.map((comment)=> <Comment key={comment.username} {...comment}/>)}
